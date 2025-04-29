@@ -30,25 +30,25 @@
         <h3>私のおすすめ和菓子アンケートフォーム</h3>
         <form>
           <label>氏名</label>
-          <input type="text" placeeholder="名前を入力してください">
+          <input type="text" placeholder="名前を入力してください">
           <br>
 
         <label>年代</label>
-        <section>
+        <select>
           <option>10代以下</option>
           <option>20代</option>
           <option>30代</option>
           <option>40代以上</option>
-        </section>
+        </select>
         <br>
 
         <label>お問い合わせ内容</label>
         <textarea></textarea>
         <br>
 
-        <label>男性</label><input type="radio" neme="gender">
-        <label>女性</label><input type="radio" neme="gender">
-        <label>その他</label><input type="radio" neme="gender">
+        <label>男性</label><input type="radio" name="gender">
+        <label>女性</label><input type="radio" name="gender">
+        <label>その他</label><input type="radio" name="gender">
         <br>
 
         <lable>利用規約に同意</lable>
@@ -57,20 +57,22 @@
         <br>
 
         <input type="submit" value="送信">
-        <input type="submit" value="送信">
+        <input type="reset" value="リセット">
         </form>
       </section>
     </article>
     <article>
       <h2>テクノロジー</h2>
-      <section>
+      <select>
         <h3>SAMURAIが新しい動画をリリース</h3>
         <p>SAMURAI公式YouTubeで新しい動画がリリースされました。</p><br>
         <p>動画の内容はHTML/CSSの解説です</p>
         <br>
 
-        <video  src="https://www.youtube.com/embed/2JLiGSUohEo?si=25A4nl4SbpJL7-l5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>controls width="640"></video>
-      </section>
+        <iframe  src="https://www.youtube.com/embed/2JLiGSUohEo?si=25A4nl4SbpJL7-l5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          
+        </iframe>
+      </select>
     </article>
   </main>
   <footer>
